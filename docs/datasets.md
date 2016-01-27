@@ -36,7 +36,7 @@ Communication
 
 Events
 
-- Farmer’s Markets: https://data.smcgov.org/Business/Certified-Farmers-Markets/ehqe-kh4j 
+-Farmer’s Markets: https://data.smcgov.org/Business/Certified-Farmers-Markets/ehqe-kh4j 
 
 Health
 
