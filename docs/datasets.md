@@ -13,8 +13,8 @@ Provide a locator service - most likely a geographic mapping service -
 Data
 Requirements for consideration in inclusion in the project:
 
-Spatial component
-Community focus or service
+1. Spatial component
+2. Community focus or service
 
 
 Education
