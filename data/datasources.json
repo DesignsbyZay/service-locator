@@ -1,0 +1,51 @@
+
+{
+    "data": [
+        {
+            "id": "education",
+            "type": "category",
+            "name": "Education",
+            "name_resource": "education",
+            "icon": "education",
+            "contents": [
+                {
+                    "id": "elementary",
+                    "type": "points",
+                    "name": "Elementary",
+                    "name_resource": "elementary",
+                    "icon": "school",
+                    "url": "https://data.smcgov.org/resource/rx3p-cevh.json?category=ELEMENTARY%20SCHOOL",
+                    "mappings": {
+                    	"id": "objectid",
+                    	"name": "name",
+                    	"latitude": "location_1.latitude",
+                    	"longitude": "location_1.longitude",
+                    	"address_street1": "human_address.address",
+                    	"address_city": "human_address.city",                  
+                    	"address_state": "human_address.state",                  
+                    	"address_zip": "human_address.zip"                 
+                    }
+                },
+                {
+                    "id": "highschool",
+                    "type": "points",
+                    "name": "High School",
+                    "name_resource": "highschool",
+                    "icon": "school",
+                    "url": "https://data.smcgov.org/resource/rx3p-cevh.json?category=HIGH%20SCHOOL",
+                    "mappings": {
+                    	"id": "objectid",
+                    	"name": "name",
+                    	"latitude": "location_1.latitude",
+                    	"longitude": "location_1.longitude",
+                    	"address_street1": "human_address.address",
+                    	"address_city": "human_address.city",                  
+                    	"address_state": "human_address.state",                  
+                    	"address_zip": "human_address.zip"                 
+                    }
+
+                }
+            ]
+        }
+    ]
+}
