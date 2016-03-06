@@ -44,5 +44,23 @@
 
             }
         ]
+    },
+    {
+        "id": "recreation",
+        "type": "category",
+        "name": "Recreation",
+        "name_resource": "recreation",
+        "icon": "recreation",
+        "contents": [
+            {
+                "id": "parks",
+                "type": "points",
+                "name": "Parks",
+                "name_resource": "parks",
+                "icon": "parks",
+                "url": null,
+                "mappings": null
+            }
+        ]
     }
 ]
