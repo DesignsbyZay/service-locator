@@ -1,0 +1,151 @@
+html,body
+{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;    
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+}
+body
+{
+    display: table;
+    background-color: #c8bfb7 !important;
+}
+#titlebar
+{
+    width: 100%;
+    background: yellow;
+    display: table-row;
+}
+#titlebar {
+	background-color: #056cb6;
+	width: 100%;
+	height: 75px;
+	font-family: 'Oswald', sans-serif;
+}
+#logo {
+	padding-right: 5px;
+	padding-left: 5px;
+	float: left;
+}
+#title {
+	font-size: 28px;
+	padding-top: 3px;
+	padding-left: 15px;
+	color: white;
+}
+#menubar {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+	height: 25px;
+	background-color: #38939b;
+	font-family: 'Oswald', sans-serif;
+	font-size: 15px;
+	color: white;
+}
+.menuspacer {
+	float: left;
+	width: 50px;
+}
+.menuitem {
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 30px;
+	float: left;
+}
+.menuitem a {
+	color: white;
+	text-decoration: none;
+}
+#contentpane {
+	width: 100%;
+    height: 100%;  
+    background-color: #bbb0a6;
+}
+#optionpane {
+	float: left;
+	width: 20%;
+	height: 100%;
+	background-color: #c8bfb7 !important;
+	z-index: 900;
+	padding: 0px;
+	overflow-y: scroll;
+}
+#mapdiv {
+	float: left;
+	left: 0;
+	width: 80%;
+	height: 100%;
+	z-index: 100;
+	background-color: #c8bfb7;
+}
+
+#jqxTree {
+	top: 10px;
+	left: 10px;
+	width: 100%;
+	height: 95%;
+	padding-top: 20px;
+	overflow-y: scroll;
+}
+.jqx-widget-content {
+	background-color: #c8bfb7 !important;
+	font-family: 'Roboto', sans-serif !important;
+	font-size: 13px !important;
+	font-weight: 300 !important;
+}
+#legendcontainer {
+	position: relative;
+	overflow-y: scroll;
+	background-color: #c8bfb7 !important;
+	margin-top: 20px;
+	padding: 10px;
+}
+.legend_value {
+	font-family: 'Roboto', sans-serif !important;
+	font-size: 13px !important;
+	font-weight: 300 !important;
+}
+#creditspane {
+	padding: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+.selectedmenu a {
+	color: black;
+}
+#surveypopup {
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    margin: -5px auto auto -5px;
+    top: 35%;
+    left: 40%;
+    text-align: center;
+	background-color: #eeeeee;
+	z-index: 2000;
+	border-radius: 5px;
+	padding: 5px;
+	border: solid 3px black;
+}
+#surveycontent {
+	width: 100%;
+}
+#surveyclose {
+	position: relative;
+	width: 50px;
+	height: 50px;
+	left: 150px;
+	top: -5px;
+}
+.jqx-tree-dropdown
+{
+    padding-left: 20px !important;
+}
+div.label_div {
+    pointer-events: none;
+}

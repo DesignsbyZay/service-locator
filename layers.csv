@@ -1,0 +1,22 @@
+name,parent,url,latitudeElement,longitudeElement,nameElement,icon,popupTemplate
+Solid Waste Sites,Environment,https://data.smcgov.org/resource/kb45-qkjh.json,location_1.coordinates[1],location_1.coordinates[0],site_name,icons/icon_recycle_green_16.png,<b><span style='font-size:16px'>{{site_name}}</span></b><br><i><span style='font-size:12px'>{{activity}}</span></i><br>&nbsp;<br><span style='font-size:13px'>{{location}}{{#operator}}<br>Operated by {{operator}}{{/operator}}</span>
+Mobile Clinics,Health,https://data.smcgov.org/resource/kmat-kj43.json,location_1.coordinates[1],location_1.coordinates[0],address,icons/icon_health_red_16.png,<b><span style='font-size:16px'>{{address}}</span></b><br><i><span style='font-size:12px'>{{location}}</span></i><br>&nbsp;<br><span style='font-size:13px'><b>{{open_day}} from {{start_time}}-{{end_time}}</b>{{#notes}}<br>&nbsp;<br>{{notes}}{{/notes}}</span>
+Flu Clinics,Health,https://data.smcgov.org/resource/wxr2-4w8a.json,location_1.coordinates[1],location_1.coordinates[0],facility_name,icons/icon_health_blue_16.png,<b><span style='font-size:16px'>{{facility_name}}</span></b>
+County Health Service Locations,Health,https://data.smcgov.org/resource/rmaj-patv.json,location_1.latitude,location_1.longitude,facility_name,icons/icon_health_purple_16.png,<b><span style='font-size:16px'>{{facility_name}}</span></b>
+Affordable Rentals,Housing,https://data.smcgov.org/resource/yqne-5jyy.json?category=Affordable%20Rental,location_1.coordinates[1],location_1.coordinates[0],project_name,icons/icon_house_red_16.png,<b><span style='font-size:16px'>{{project_name}}</span></b>
+Shelters,Housing,https://data.smcgov.org/resource/yqne-5jyy.json?category=Shelter,location_1.coordinates[1],location_1.coordinates[0],project_name,icons/icon_house_blue_16.png,<b><span style='font-size:16px'>{{project_name}}</span></b>
+Transitional Housing,Housing,https://data.smcgov.org/resource/yqne-5jyy.json?category=Transitional%20Housing,location_1.coordinates[1],location_1.coordinates[0],project_name,icons/icon_house_purple_16.png,<b><span style='font-size:16px'>{{project_name}}</span></b>
+Police,Safety,https://data.smcgov.org/resource/7d9i-x39j.json?agency_type=POLICE%20DEPARTMENT,location.latitude,location.longitude,service_provider,icons/icon_police_blue_16.png,<b><span style='font-size:16px'>{{service_provider}}</span></b>
+Fire,Safety,https://data.smcgov.org/resource/7d9i-x39j.json?agency_type=FIRE%20STATION,location.latitude,location.longitude,service_provider,icons/icon_fire_red_16.png,<b><span style='font-size:16px'>{{service_provider}}</span></b>
+Sheriff,Safety,https://data.smcgov.org/resource/7d9i-x39j.json?agency_type=COUNTY,location.latitude,location.longitude,service_provider,icons/icon_sheriff_black_16.png,<b><span style='font-size:16px'>{{service_provider}}</span></b>
+Parks,Recreation,,,,,icons/icon_dot_red_16.png,
+Beaches,Recreation,,,,,icons/icon_dot_red_16.png,
+Open Spaces,Recreation,,,,,icons/icon_dot_red_16.png,
+Trails,Recreation,,,,,icons/icon_dot_red_16.png,
+Farmer's Markets,Shopping,,,,,icons/icon_dot_red_16.png,
+Farms,Shopping,,,,,icons/icon_dot_red_16.png,
+Wineries,Shopping,,,,,icons/icon_dot_red_16.png,
+Breweries,Shopping,,,,,icons/icon_dot_red_16.png,
+SamTrans stops,Transportation,https://data.smcgov.org/resource/cc53-4kky.json,stop_lat,stop_lon,stop_name,icons/icon_bus_red_16.png,<b><span style='font-size:16px'>{{stop_name}}</span></b>
+BART stations,Transportation,https://data.smcgov.org/resource/xyda-rqx5.json,the_geom.coordinates[1],the_geom.coordinates[0],name,icons/icon_train_blue_16.png,<b><span style='font-size:16px'>{{name}}</span></b>
+Caltrain stations,Transportation,https://data.smcgov.org/resource/nnnh-qjvs.json,stop_lat,stop_lon,stop_name,icons/icon_train_purple_16.png,<b><span style='font-size:16px'>{{stop_name}}</span></b>
