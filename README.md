@@ -8,6 +8,9 @@ Service Locator is a web application which displays public services and points o
 
 The application consumes data from Open San Mateo County, the county's open data portal. The datasets are configured, along with their display properties, in a CSV file, allowing for easy editing by non-technical contributors.
 
+### URL
+
+http://opensmc.org/service-locator/
 
 ### Goals
 
